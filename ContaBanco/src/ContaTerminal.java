@@ -15,7 +15,9 @@ public class ContaTerminal {
         System.out.println("Digite o número da Agência. Exemplo: 1021\n");
         int conta = texto.nextInt();
 
-        String numeroConta = "067-8";
+        System.out.println("Digite o número da conta Exemplo: 011-5\n");
+        String numeroConta = texto.next();
+
         double saldoConta = 237.48;
 
         System.out.println("Olá, obrigado " + nome + " " + sobrenome + 
